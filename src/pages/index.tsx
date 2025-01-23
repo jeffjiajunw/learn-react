@@ -2,10 +2,14 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 // import styles from '@/styles/Home.module.css'
+import Gallery from './components/gallery'
 import Profile from './components/profile'
+import PackingList from './components/props_item'
+import List from './qcomps/list_keys_id'
+import RecipeList from './qcomps/recipes'
 
 export default function Home() {
   return (
-    <Profile />
+    <RecipeList />
   )
 }
